@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Basic app styles */
+:root {
+  --bg: #f7f9fc;
+  --text: #0f1724;
+}
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+.App {
+  min-height: 100vh;
+}
